@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #C70039;
+  --secondary-color: #FFC300;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  border: 1px dotted var(--primary-color);
+  background-color: var(--secondary-color);
+  width: 32%;
+  padding-bottom: 18%; /* 32:18, i.e. 16:9 */
+  margin-bottom: 2%; /* (100-32*3)/2 */
+}

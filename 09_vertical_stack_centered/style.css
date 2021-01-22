@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #C70039;
+  --secondary-color: #FFC300;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25vh;
+}
+
+.item {
+  border: 1px dotted var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  height: 40px;
+  width: 40%;
+  margin-bottom: 10px;
+
+}

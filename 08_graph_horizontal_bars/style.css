@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #C70039;
+  --secondary-color: #FFC300;
+}
+
+.container {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.item {
+  border: 1px dotted var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  height: 14%;
+}
+
+.item-1 {
+  width: 20%;
+}
+
+.item-2 {
+  width: 30%;
+}
+
+.item-3 {
+  width: 40%;
+}
+
+.item-4 {
+  width: 50%;
+}
+
+.item-5 {
+  width: 60%;
+}
